@@ -1,4 +1,4 @@
-﻿using Schemas = ITfoxtec.Identity.Saml2.Schemas;
+using Schemas = ITfoxtec.Identity.Saml2.Schemas;
 using ITfoxtec.Identity.Saml2.Tokens;
 using System;
 using System.Linq;
@@ -16,7 +16,7 @@ using System.IdentityModel.Protocols.WSTrust;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.IdentityModel.Tokens.Saml2;
 #endif
-
+ 
 
 namespace ITfoxtec.Identity.Saml2
 {
