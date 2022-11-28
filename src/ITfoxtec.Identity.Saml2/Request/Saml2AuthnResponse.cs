@@ -259,10 +259,10 @@ namespace ITfoxtec.Identity.Saml2
         private XmlElement GetAssertionElementReference()
         {
             var assertionElements = XmlDocument.DocumentElement.SelectNodes($"//*[local-name()='{Schemas.Saml2Constants.Message.Assertion}']");
-            if (assertionElements.Count != 1)
-            {
-                throw new Saml2RequestException("There is not exactly one Assertion element.");
-            }
+            // if (assertionElements.Count != 1)
+            // {
+            //     throw new Saml2RequestException("There is not exactly one Assertion element.");
+            // }
             return assertionElements[0] as XmlElement;
         }
 
